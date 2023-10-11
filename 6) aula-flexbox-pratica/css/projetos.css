@@ -1,0 +1,79 @@
+.projetos{
+    width: 100%;
+    background-color: rgb(243, 96, 42) ;
+    padding-bottom: 150px;
+}
+
+.projetos-titulo{
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projetos-titulo > h1 {
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+}
+
+.projetos-titulo > div {
+    width: 150px;
+    height: 3px;
+    background-color: rgb(45, 45, 45);
+}
+
+
+.projetos-conteudo{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projetos-conteudo > div {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+}
+
+.projetos-conteudo > div > img{
+    width: 500px;
+    height: 250px;
+}
+
+.projetos-conteudo > div > h1{
+    font-size: 40px;
+    color: rgb(45, 45, 45) ;
+    margin: 10px;
+}
+
+.projetos-conteudo > div > p{
+    font-size: 20px;
+    color: rgb(45, 45, 45) ;
+    margin: 10px 10px 20px 10px ;
+}
+
+.projetos-conteudo > div > a{
+    font-size: 20px;
+    margin: 10px;
+    color: rgb(255, 255, 255) ;
+    background-color:  rgb(45, 45, 45);
+    padding: 10px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .projetos-conteudo > div {
+        width: 250px;
+        height: 500px;
+    }
+
+    .projetos-conteudo > div > img{
+        width: 250px;
+        height: 125px;
+    }
+}

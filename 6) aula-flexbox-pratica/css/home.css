@@ -1,0 +1,128 @@
+.home{
+    background-image: url(../image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-conteudo{
+    width: 70%;
+    height: 700px;
+}
+
+.home-apresentacao > p{
+    color:  rgb(243, 96, 42);
+    font-size: 50px;
+    margin-top: 60px;
+    
+}
+
+.home-apresentacao > h1{
+    color:  rgb(255, 255, 255);
+    font-size: 150px;
+   
+}
+
+.home-apresentacao > h1:hover{
+    font-size: 155px;
+    letter-spacing: 2px;
+    transition:  linear  0.5s;
+}
+
+.home-apresentacao > h2{
+    color:  rgb(255, 255, 255);
+    font-size: 50px;
+  
+}
+
+.home-apresentacao > h2:hover{
+    font-size: 53px;
+    letter-spacing: 1px;
+    transition:  linear  0.5s;
+}
+
+.home-apresentacao > h2 > span{
+    color: rgb(243, 96, 42);
+}
+
+.home-apresentacao > h3{
+    color:  rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 100;
+    margin-top: 40px;
+    max-width: 900px;
+}
+
+.home-social > a{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-right: 40px;
+    background-color:  rgb(243, 96, 42);
+    padding: 10px;
+}
+
+.home-social > a:hover{
+   background-color: rgb(45, 45, 45);
+   color: rgb(243, 96, 42);
+   padding: 12px;
+   border: 1px solid rgb(243, 96, 42);
+   transition: linear 0.2s;
+}
+
+.home-social{
+    margin-top: 40px;
+}
+
+@media(max-width: 800px) {
+    .home-apresentacao > h1{
+        font-size: 90px;
+    }
+
+    .home-apresentacao > h2{
+        font-size: 30px;
+    }
+}
+
+
+/* quebra do responsivo abaixo de 600px */
+@media(max-width: 600px) {
+    .home-apresentacao > p{
+        font-size: 20px;
+    }
+
+    .home-apresentacao > h1{
+        font-size: 70px;
+    }
+
+    .home-apresentacao > h1:hover{
+        font-size: 70px;
+        letter-spacing: 0px;
+    }
+
+    .home-apresentacao > h2{
+        font-size: 25px;
+    }
+
+    .home-apresentacao > h2:hover{
+        font-size: 25px;
+        letter-spacing: 0px;
+    }
+
+    .home-apresentacao > h3{
+        font-size: 20px;
+    }
+
+    .home-social > a{
+        font-size: 22px;
+        margin-right: 15px;
+        padding: 5px;
+    }
+
+    .home-conteudo{
+        width: 90%;
+    }
+}

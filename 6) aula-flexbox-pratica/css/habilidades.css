@@ -1,0 +1,67 @@
+.habilidades{
+    background-color: rgb(45, 45, 45);
+    width: 100%;
+    padding-bottom: 150px;
+}
+
+.hab-titulo{
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hab-titulo > h1{
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+}
+
+.hab-titulo > div{
+    width: 150px;
+    height: 3px;
+    background-color: rgb(243, 96, 42);
+    
+}
+
+.hab-conteudo{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hab-conteudo > div {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.hab-conteudo > div:hover{
+    border: 6px solid rgb(243, 96, 42);
+    transition: ease-out 0.3s;
+}
+
+.hab-conteudo > div > img{
+    width: 130px;
+    height: 130px;
+}
+
+.hab-conteudo > div > h1{
+    font-size: 30px;
+    color:  rgb(243, 96, 42);
+}
+
+@media only screen and (max-width: 600px) {
+   .hab-titulo > h1{
+    font-size: 50px;
+   }
+}
